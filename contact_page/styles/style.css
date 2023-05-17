@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  padding: 3.18rem 26rem;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: unset;
+}
+
+.icon_home{
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.navigation_bar{
+  display: flex;
+  flex-direction: row;
+  gap: 6.75rem;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.navigation_bar:hover{
+  color: aqua;
+}
+
+.main_content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 7rem;
+}
+
+.text_section{
+  display: flex;
+  flex-direction: column;
+}
+
+.content_title_1{
+  font-weight: 700;
+  font-size: 4rem;
+  padding-bottom: 20px;
+}
+
+.content_paragraph_1{
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-bottom: 54px;
+}
+
+.content_title_2{
+  font-weight: 700;
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+.content_paragraph_2{
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-family: Poppins;
+}
+
+.social_navigation{
+  display: flex;
+  flex-direction: column;
+}
+
+.content_title_3{
+  font-weight: 700;
+  font-size: 2rem;
+  padding-top: 54px;
+  padding-bottom: 20px;
+}
+
+.content_paragraph_3{
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-family: Poppins;
+}
+
+.form{
+  width: 80rem;
+  margin-left: 8.43rem;
+}
+
+.form div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 1.75rem;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+form input, form textarea, form select{
+  outline: unset;
+  padding: .75rem;
+  background-color: #F7F7F7;
+  border: none;
+}
+
+.button_submit{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 13px 246px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 1.5rem;
+  transition: all .3s ease-in-out;
+  font-style: bold;
+  cursor: pointer;
+}
+
+.button_submit:hover{
+  background-color: #ffffff;
+  color: black;
+}
