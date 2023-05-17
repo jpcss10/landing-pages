@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+  --font: Rubik;
+}
+
+body{
+  background-color: black;
+  color: white;
+  padding: 31px 66px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: unset;
+}
+
+a:hover{
+  color: white;
+}
+
+.top_bar{
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  color: #79797A;
+}
+
+.navigation_bar{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3.5rem;
+}
+
+.button_1{
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 1.5rem;
+  background-color: #279DE0;
+  color: white;
+  border: none;
+  padding: 8px 28px;
+  border-radius: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.button_1:hover{
+  background-color: #006dac;
+}
+
+.main_content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 11.43rem;
+}
+
+.information_content{
+  display: flex;
+  flex-direction: column;
+  gap: 2.87rem;
+}
+
+.title_1{
+  font-family: var(--font);
+  font-weight: 600;
+  font-size: 5.5rem;
+}
+
+.text_content{
+  font-family: var(--font);
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.button_group{
+  display: flex;
+  gap: 3rem;
+}
+
+.button_2{
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #279DE0;
+  border: none;
+  padding: 19px 55px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.button_2:hover{
+  background-color: #006dac;
+}
+
+.button_3{
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.button_3:hover{
+  color: #79797A;;
+}
+
+.footer_content{
+  color: #79797A;
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.footer_links{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.world_image{
+  height: 512px;
+  width: 648px;
+  animation:world_image;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating{
+  0%{
+    transform: translateY(0px);
+  }
+
+  50%{
+    transform: translateY(-30px);
+  }
+
+  100%{
+    transform: translateY(0px);
+  }
+}
